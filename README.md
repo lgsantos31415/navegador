@@ -27,3 +27,15 @@ Essas funcionalidades básicas permitem visualizar o conteúdo de páginas simpl
 O desenvolvimento deste projeto tem como propósito educacional e o estudo prático de tecnologias envolvidas na construção de navegadores modernos.
 
 Além disso, o projeto proporciona uma compreensão mais profunda sobre os processos de comunicação via HTTP, análise sintática de HTML e renderização gráfica.
+
+## Compilação
+
+Para compilar o projeto, utilize a seguinte linha de comando:
+
+```bash
+g++ main.cpp -I/mingw64/include -L/mingw64/lib -lfltk -lole32 -luuid -lcomctl32 -lws2_32 -lssl -lcrypto -lcrypt32 -lgumbo -o main.exe
+```
+
+## Teste
+
+Para testar o projeto foi utilizado o site example.com, que fornece uma página HTML simples.
