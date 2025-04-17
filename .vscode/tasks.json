@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "main.cpp",
+        "-I/mingw64/include",
+        "-L/mingw64/lib",
+        "-lfltk",
+        "-lole32",
+        "-luuid",
+        "-lcomctl32",
+        "-lws2_32",
+        "-lssl",
+        "-lcrypto",
+        "-lcrypt32",
+        "-lgumbo",
+        "-o",
+        "main.exe"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
